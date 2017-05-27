@@ -2,7 +2,7 @@
 Android native mobile application for Hopener system.
 More details available on [Hopener](https://github.com/thirteendollars/Hopener) project repository.
 
-
+## License
 ```
 MIT License
 
