@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hopener</string>
+    <string name="qr_scanned_successfully">QRCode scanned successfully</string>
+    <string name="rest_415">Update application first.</string>
+    <string name="rest_401">Device not authorized</string>
+    <string name="rest_403">Access not granted</string>
+    <string name="rest_500">Internal server error</string>
+    <string name="rest_unknown">Unknown error</string>
+    <string name="connection_error">Cannot connect with server</string>
+    <string name="pager_fence">FENCE</string>
+    <string name="pager_garage">GARAGE</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thirteendollars.hopener.activity.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/device_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="0.75">
+
+        <Button
+            android:id="@+id/open_button"
+            android:text="open"
+            style="@style/ControlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/open_button"/>
+
+        <Button
+            android:id="@+id/pause_button"
+            android:text="pause"
+            style="@style/ControlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pause_button"/>
+
+        <Button
+            android:id="@+id/close_button"
+            android:text="close"
+            style="@style/ControlButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/close_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
